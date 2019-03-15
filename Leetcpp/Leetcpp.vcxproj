@@ -144,6 +144,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1.cpp" />
+    <ClCompile Include="bstiterator.cpp" />
+    <ClCompile Include="inorderBT.cpp" />
     <ClCompile Include="island.cpp" />
     <ClCompile Include="validateBinarySearchTree.cpp" />
   </ItemGroup>

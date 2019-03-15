@@ -24,5 +24,11 @@
     <ClCompile Include="validateBinarySearchTree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="bstiterator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inorderBT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

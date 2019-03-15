@@ -32,21 +32,3 @@ vector<int> inorderTraversal(TreeNode* root) {
 	}
 	return result;
 }
-
-int main() {
-	TreeNode *A;
-	TreeNode *B;
-	A = (TreeNode*)malloc(sizeof(TreeNode));
-	A->val = 1;
-	A->left = (TreeNode*)malloc(sizeof(TreeNode));
-	A->right = NULL;
-	B = A->left;
-	B->val = 2;
-	B->left = (TreeNode*)malloc(sizeof(TreeNode));
-	B->right = NULL;
-	B->left->left = NULL;
-	B->left->right = NULL;
-	B->left->val = 3;
-	inorderTraversal(A);
-	int c = 0;
-}
