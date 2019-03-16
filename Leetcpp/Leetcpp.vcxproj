@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -143,10 +143,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1.cpp" />
+    <ClCompile Include="121.cpp" />
+    <ClCompile Include="122.cpp" />
+    <ClCompile Include="189cpp.cpp" />
+    <ClCompile Include="26.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="bstiterator.cpp" />
     <ClCompile Include="inorderBT.cpp" />
     <ClCompile Include="island.cpp" />
+    <ClCompile Include="n_arraytree.cpp" />
     <ClCompile Include="validateBinarySearchTree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

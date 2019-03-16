@@ -8,7 +8,7 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-class BSTIterator {//非栈实现
+class BSTIterator {//非栈实现，将右子树指向中间节点
 public:
 	BSTIterator(TreeNode *root) : now(root) {}
 
